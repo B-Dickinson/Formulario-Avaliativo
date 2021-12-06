@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP3 - INTRODUÇÃO À INFORMÁTICA</title>
+    <link rel="shortcut icon" href="images/favicon_qp2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header>
+            <div id = "image">
+                <img src="images/star-wars-montage.jpg" alt="image">
+            </div>
+     </header>
+
+                <main>
+                    <div class="topoDecorado">
+                        <div id="um">
+                            <h1>AP3 - INTRODUÇÃO À INFORMÁTICA</h1>
+                            <label>Total de pontos </label> <p id="totPontos" style="display: inline;">0/0</p>
+                        </div>
+                    </div>
+                    <div id="dois">
+                        <p>E-mail:</p>
+                        <input type="text" id="email" size="33">
+                    </div>
+                    <div id="tres">
+                        <p>Nome do Aluno:</p>
+                        <input type="text" id="nomeAluno" size="33px">
+                    </div>
+                    <div id="quatro">
+                          <h3>AP3 - INTRODUÇÃO À INFORMÁTICA</h3>
+                          <p id="totalPontos">0 de 10 pontos</p>
+                          <div id="questao1">
+                            <p>A conversão de 100110 base 2 para a base 8 resulta em: </p>
+                            <p class="qtdValePontos">(3/0)</p> <br>
+                            <input type="radio" name="I" id="1"> <label for="1" class="res" id="q1a1"> 42 </label>
+                            <br>
+                            <input type="radio" name="I" id="2"> <label for="2" class="res" id="q1a2"> 43 </label>
+                            <br>
+                            <input type="radio" name="I" id="3"> <label for="3" class="res" id="q1a3"> 44 </label>
+                            <br>
+                            <input type="radio" name="I" id="4"> <label for="4" class="res" id="q1a4"> 45 </label>
+                            <br>
+                            <input type="radio" name="I" id="5"> <label for="5" class="res" id="q1a5"> 46 </label>
+                            <div id="errada1">
+
+                            </div>
+                          </div>
+                    </div>
+                    <div id="cinco">
+                        <div id="questao2">
+                            <p>Com base nos conceitos de arquitetura de computadores, julgue o item a seguir: "A arquitetura de computadores trata do comportamento funcional de um sistema computacional do ponto de vista do programador". </p>
+                            <p class="qtdValePontos">(1/0)</p> <br>
+                            <input type="radio" name="II" id="1"> <label for="1" id="q2a1"> VERDADEIRO </label>
+                            <br>
+                            <input type="radio" name="II" id="2"> <label for="2" id="q2a2"> FALSO </label>
+                            <div id="errada2">
+
+                            </div>
+                          </div>
+                    </div>
+                    <div id="seis">
+                        <div id="questao3">
+                            <p>A conversão de 74 base 8 para a base 16 resulta em: </p>
+                            <p class="qtdValePontos">(3/0)</p> <br>
+                            <input type="radio" name="III" id="1"> <label for="1" id="q3a1"> 1A </label>
+                            <br>
+                            <input type="radio" name="III" id="2"> <label for="2" id="q3a2"> 2B </label>
+                            <br>
+                            <input type="radio" name="III" id="3"> <label for="3" id="q3a3"> 3C </label>
+                            <br>
+                            <input type="radio" name="III" id="4"> <label for="4" id="q3a4"> 3D </label>
+                            <br>
+                            <input type="radio" name="III" id="5"> <label for="5" id="q3a5"> 360 </label>
+                            <div id="errada3">
+
+                            </div>
+                          </div>
+                    </div>
+                    <div id="sete">
+                        <div id="questao4">
+                            <p>Dado o binário 11011011, ao ser tratado como ponto flutuante, seu resultado fica: </p>
+                            <p class="qtdValePontos">(3/0)</p> <br>
+                            <input type="radio" name="IV" id="1"> <label for="1" id="q4a1"> 22 </label>
+                            <br>
+                            <input type="radio" name="IV" id="2"> <label for="2" id="q4a2"> -22 </label>
+                            <br>
+                            <input type="radio" name="IV" id="3"> <label for="3" id="q4a3"> 0,8125 </label>
+                            <br>
+                            <input type="radio" name="IV" id="4"> <label for="4" id="q4a4"> -0,8125 </label>
+                            <br>
+                            <input type="radio" name="IV" id="5"> <label for="5" id="q4a5"> Nenhuma das Alternativas </label>
+                            <div id="errada4">
+
+                            </div>
+                          </div>
+                    </div>
+                </main>
+     <footer>
+            <input type="button" value="Enviar Formulário" onclick="enviar()">
+     </footer>
+     <script src="correcao.js"></script>
+</body>
+</html>
